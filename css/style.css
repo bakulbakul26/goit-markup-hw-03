@@ -1,0 +1,140 @@
+
+
+.logo {
+  color: #2196f3;
+  font-family: raleway;
+  font-weight: 700;
+  size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 0,03em;
+  
+}
+
+
+.link {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+  cursor: pointer;
+}
+
+.link-contact {
+  color: #757575;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
+.navi-color :hover,
+.navi-color :focus {
+  color: #2196f3;
+}
+
+.order {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0,06em;
+  color: #212121;
+  
+  cursor: pointer;
+}
+
+.navigation {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0,03em;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+button {
+  border-width: 0px;
+}
+
+.navigation button:hover,
+.navigation button:focus {
+  color: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+
+  h1 {
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0,06em;
+}
+.article h2 {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16,41px;
+  letter-spacing: 0,03;
+}
+.article p {
+  color:#757575;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0,03em;
+}
+.foto h2{
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42,19px;
+  letter-spacing: 0,03;
+}
+
+.titleimg {
+  font-family: Roboto;
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;  
+}
+
+.catalog {
+  font-family: roboto;
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.data {
+  color:black;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0,03em;
+  
+}
+
+/*zadanie 3*/
+
+.wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  outline:1px dashed  ;
+}
+
+.navi-color{
+  display: flex;
+}
+
+
+
+
