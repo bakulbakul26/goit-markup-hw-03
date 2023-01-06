@@ -9,6 +9,11 @@
 }
 .section {
   padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.section2 {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -18,6 +23,12 @@
 .foto-flx-3 {
   display: flex;
   gap: 38px;
+}
+
+.list-item {
+  background-color: var(--white);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 0px 4px 4px;
 }
 
 .flex-nav-container {
@@ -91,6 +102,8 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+
 
 .logo {
   color: var(--blue);
@@ -222,6 +235,19 @@ header {
   cursor: pointer;
 }
 
+.color-container{
+  background-color: #2f303a;
+}
+
+.data {
+  color: var(--white);
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
 .order button {
   width: 200px;
   height: 50px;
@@ -310,6 +336,11 @@ header {
   letter-spacing: 0.03em;
 }
 
+.nav-button:hover,
+.nav-button:focus {
+  color: var(--blue);
+  cursor: pointer;
+
 .list-item {
   background-color: var(--white);
 
@@ -317,14 +348,14 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
-.data {
-  color: var(--white);
-  font-family: roboto;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+
+
+
 }
+
+
+
+
 
 .tiles {
   display: flex;
@@ -349,11 +380,18 @@ address {
   margin-bottom: 50px;
 }
 
-.foter {
-  background-color: var(--blac-section);
-  font-style: normal;
-  display: flex;
-  justify-content: center;
+
+
+
+.link-contact-end {
+  color: var(--grey-heading);
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 /*zadanie 3*/
